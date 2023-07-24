@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <script src="../js/code.jquery.com_jquery-1.12.4.js"></script>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script src="../js/header.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">$.noConflict();</script>
+</head>
+<body>
+    <div class="header">
+        <div class="top">
+            <div class="btns_left">
+                <a href="#" class="none">개인</a>
+                <a href="#">법인</a>
+                <a href="#">가맹점</a>
+                <select id="header_menu">
+                    <option value="마이카" selected>마이카</option>
+                    <option value="올댓쇼핑">올댓쇼핑</option>
+                    <option value="신한아름인">신한아름인</option>
+                    <option value="BIGDATA">BIGDATA</option>
+                    <option value="신한은행">신한은행</option>
+                </select>
+            </div>
+            <div class="btns_right">
+                <a href="#" class="none">로그인</a>
+                <a href="#">회원가입</a>
+                <a href="#">아이디찾기</a>
+                <a href="#">상품공시실</a>
+                <a href="#">금융소비자보호포털</a>
+            </div>
+        </div>
+        <header>
+            <a href="/index.html" class="logo"><img src="../images/ci-shinhan-pc.png" alt="신한카드"></a>
+            <div>
+                <ul class="gnb">
+                    <li><a href="#">마이</a></li>
+                    <li><a href="#">혜택</a></li>
+                    <li><a href="#">금융</a></li>
+                    <li><a href="../pages/cards.html">카드</a></li>
+                    <li><a href="#">서비스</a></li>
+                    <li><a href="#">디지털</a></li>
+                    <li><a href="#">Tops Club</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+            </div>
+            <!-- <img src="../images/mobile/arw_tab_next_m.png" alt="이전 버튼" class="prev_b"> -->
+            <!-- <img src="../images/mobile/arw_tab_next_m.png" alt="다음 버튼" class="next_b"> -->
+            <div class="btn">
+                <a href="#" class="search_icon"><img src="../images/ico-72-src1.png" alt="검색하기"></a>
+                <a href="#" class="menu_bar"><img src="../images/h-menu-more.png" alt="전체메뉴보기"></a>
+            </div>
+        </header>
+        <div class="mobile_header">
+            <a href="../pages/main.html">
+                <img src="../images/mobile/h-72-back.png" alt="">
+            </a>
+            <h3>신용카드</h3>
+            <div>
+                <img src="../images/mobile/ico-72-src1.png" alt="검색하기">
+                <img src="../images/mobile/h-menu-more.png" alt="전체메뉴보기" class="menu_bar">
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="menu_more">
+        <div class="menu_all">
+            <h4>전체메뉴</h4>
+            <div class="mobile_menu_header">
+                <a href="#">홈</a>
+                <a href="#">회원가입</a>
+                <a href="#" class="login">
+                    <img src="../images/mobile/ico-72-login1.png" alt="모바일 로그인 버튼">
+                    <p>로그인</p>
+                </a>
+            </div>
+            <a href="#" class="close_menu"><img src="../images/ico_close_pop.png" alt="전체메뉴 닫기 버튼"></a>
+            <ul class="tabs">
+                <li><a href="#" class="on">마이</a></li>
+                <li><a href="#">혜택</a></li>
+                <li><a href="#">금융</a></li>
+                <li><a href="../pages/cards.html">카드</a></li>
+                <li><a href="#">서비스</a></li>
+                <li><a href="#">디지털</a></li>
+                <li><a href="#">Tops Club</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+            <div class="mypage">
+                <a href="#" class="sub_title">
+                    <h5>마이페이지</h5>
+                    <img src="../images/arr-60-r-a.png" alt="페이지 이동 버튼">
+                </a>
+                <div class="menu_list">
+                    <div>
+                        <h6>명세서</h6>
+                        <a href="#">이용대금명세서</a>
+                        <a href="#">이메일명세서 재발행</a>
+                    </div>
+                    <div>
+                        <h6>이용내역</h6>
+                        <a href="#">카드이용내역(매출전표)</a>
+                        <a href="#">카드이용실적 충족현황</a>
+                        <a href="#">교통카드 이용내역</a>
+                        <a href="#">개인사업자용 이용내역</a>
+                        <a href="#">연회비 청구내역</a>
+                        <a href="#">선택형서비스 조회·변경</a>
+                        <a href="#">카드별혜택 이용내역</a>
+                        <a href="#">카드별 통합한도</a>
+                        <a href="#">VIP 서비스</a>
+                        <a href="#">프리미엄카드 기프트 옵션</a>
+                    </div>
+                    <div>
+                        <h6>이용금액결제</h6>
+                        <a href="#">즉시결제</a>
+                        <a href="#">이번달 청구금액 즉시결제</a>
+                        <a href="#">연체금액·결제일당일결제</a>
+                        <a href="#">결제처리결과조회</a>
+                        <a href="#">당일결제잔액조회</a>
+                        <a href="#">연회비포인트결제</a>
+                        <a href="#">입금내역조회</a>
+                        <a href="#">환불내역조회·즉시환불</a>
+                        <a href="#">가상계좌</a>
+                        <a href="#">분할납부</a>
+                        <a href="#">해외이용전 분할납부</a>
+                    </div>
+                    <div>
+                        <h6>이용한도</h6>
+                        <a href="#">이용한도관리</a>
+                        <a href="#">이용한도 상향신청</a>
+                        <a href="#">추가한도 이용신청</a>
+                        <a href="#">이용한도 하향신청</a>
+                        <a href="#">체크특별한도</a>
+                        <a href="#">개인사업자 추가한도 신청</a>
+                        <a href="#">이용제한 등록</a>
+                    </div>
+                    <div class="line">.</div>
+                    <div>
+                        <h6>체크카드서비스</h6>
+                        <a href="#">대표계좌 변경</a>
+                        <a href="#">연결계좌 변경</a>
+                        <a href="#">체크 소액신용서비스</a>
+                        <a href="#">체크소액신용 분할납부</a>
+                        <a href="#">후불교통·하이패스 이용내역</a>
+                        <a href="#">신용·체크 선택결제</a>
+                        <a href="#">체크카드 가상계좌</a>
+                    </div>
+                    <div>
+                        <h6>소득공제</h6>
+                        <a href="#">소득공제조회</a>
+                        <a href="#">주택임대료(월세) 납부내역</a>
+                        <a href="#">기프트카드 소득공제</a>
+                        <a href="#">기타소득 지급내역</a>
+                    </div>
+                    <div>
+                        <h6>내정보관리</h6>
+                        <a href="#">내카드관리</a>
+                        <a href="#">미성년자 가족카드 관리</a>
+                        <a href="#">회원정보변경</a>
+                        <a href="#">고객확인의무 등록</a>
+                        <a href="#">결제계좌 변경</a>
+                        <a href="#">결제일 변경</a>
+                        <a href="#">결제일 변경 이력</a>
+                        <a href="#">명세서 수령방법 변경</a>
+                        <a href="#">혜택정보 수신동의</a>
+                        <a href="#">공지성정보 수신동의(카카오톡)</a>
+                        <a href="#">온라인회원탈퇴</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile_menu_footer">
+                <a href="#">법인</a>
+                <a href="#">마이카</a>
+            </div>
+        </div>
+    </div>
+
+    
+    <script>
+
+    </script>
+</body>
+</html>

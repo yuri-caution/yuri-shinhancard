@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <script src="../js/code.jquery.com_jquery-1.12.4.js"></script>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="../js/app.js"></script>
+    <title>신한카드</title>
+</head>
+<body>
+    <div class="header"></div>
+    <div class="warp">
+        <div class="main">
+            <div class="search_wrap">
+                <div class="search">
+                    <input type="text" placeholder="'신한 플레이'를 검색해보세요.">
+                    <a href="#"><img src="../images/ico-72-src2.png" alt="검색 버튼"></a>
+                </div>
+            </div>
+            <div class="section1">
+                
+                <div class="tab_btn">
+                    <a href="#" class="pop">인기카드</a>
+                    <a href="#" class="reco on">추천카드</a>
+                    <a href="#" class="pre">프리미엄카드</a>
+                </div>
+                <!-- <img src="../images/arr1-72-l-c 1.png" alt="좌측 화살표" class="slick-prev"> -->
+                <ul class="card_list pop">
+                    <li>
+                        <a href="#">
+                            <div class="card_img">
+                                <img src="../images/pop-card-1.png" alt="신한카드 Deep Dream Platinum">
+                            </div>
+                            <div class="card_name"><p>신한카드 Deep Dream<br>Platinum</p></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="card_img">
+                                <img src="../images/pop-card-2.png" alt="신한카드 Deep Oil">
+                            </div>
+                            <div class="card_name"><p>신한카드 Deep Oil</p></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="card_img">
+                                <img src="../images/pop-card-3.png" alt="신한카드 Mr.Life">
+                            </div>
+                            <div class="card_name"><p>신한카드 Mr.Life</p></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="card_img">
+                                <img src="../images/pop-card-4.png" alt="GS Prime 신한카드">
+                            </div>
+                            <div class="card_name"><p>GS Prime 신한카드</p></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="card_img">
+                                <img src="../images/pop-card-5.png" alt="신한카드 Way 체크 (최고심)">
+                            </div>
+                            <div class="card_name"><p>신한카드 Way 체크 <br>(최고심)</p></div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="card_list reco">
+                    <li>
+                        <a href="../pages/detail.html">
+                            <div class="card_img">
+                                <img src="../images/reco-card-1.png" alt="신한카드 봄">
+                            </div>
+                            <div class="card_name"><p>신한카드 봄</p></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="card_img">
+                                <img src="../images/reco-card-2.png" alt="신한카드 플리">
+                            </div>
+                            <div class="card_name"><p>신한카드 플리<br>(산리오캐릭터즈)</p></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="card_img">
+                                <img src="../images/reco-card-3.png" alt="신한카드 핏">
+                            </div>
+                            <div class="card_name"><p>신한카드 핏(최고심)</p></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="card_img">
+                                <img src="../images/reco-card-4.png" alt="아시아나 신한카드">
+                            </div>
+                            <div class="card_name"><p>아시아나 신한카드 Air1.5</p></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="card_img">
+                                <img src="../images/reco-card-5.png" alt="신한카드 구독 좋아요">
+                            </div>
+                            <div class="card_name"><p>신한카드 구독 좋아요</p></div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="card_list pre">
+                    <li>
+                        <a href="#">
+                            <div class="card_img">
+                                <img src="../images/premium-card-1.png" alt="메리어트 본보이 더 베스트 신한카드">
+                            </div>
+                            <div class="card_name"><p>메리어트 본보이 더 베스트<br>신한카드</p></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="card_img">
+                                <img src="../images/premium-card-2.png" alt="메리어트 본보이 더 클래식 신한카드">
+                            </div>
+                            <div class="card_name"><p>메리어트 본보이 더 클래식<br>신한카드</p></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="card_img">
+                                <img src="../images/premium-card-3.png" alt="신한카드 The Ace BLUE LABEL">
+                            </div>
+                            <div class="card_name"><p>신한카드 The Ace BLUE<br>LABEL</p></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="card_img">
+                                <img src="../images/premium-card-4.png" alt="신한카드 BEST+">
+                            </div>
+                            <div class="card_name"><p>신한카드 BEST+</p></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="card_img">
+                                <img src="../images/premium-card-5.png" alt="신한카드 The Classic+">
+                            </div>
+                            <div class="card_name"><p>신한카드 The Classic+</p></div>
+                        </a>
+                    </li>
+                </ul>
+                <!-- <img src="../images/arr1-72-r-c 1.png" alt="우측 화살표" class="slick-next"> -->
+            </div>
+            <div class="section2">
+                <img src="../images/arr1-72-r-a.png" alt="좌측 화살표" class="prevArrow">
+                <div class="slider">
+                    <ul class="slide">
+                        <li class="banner 0">
+                            <a href="#">
+                                <div>
+                                    <p class="text">신한카드만을 위한<br>인기 아이템 패키지<br>지금 선착순 응모 중</p>
+                                    <img src="../images/banner-img-0.png" alt="배너 이미지0">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="banner 1">
+                            <a href="#">
+                                <div>
+                                    <p class="text">숨은 자산은 한번에<br>스타벅스 쿠폰은<br>빠르게!</p>
+                                    <img src="../images/banner-img-1.png" alt="배너 이미지1">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="banner 2">
+                            <a href="#">
+                                <div>
+                                    <p class="text">E쁜 누나다~<br>I스크림 사주세요!</p>
+                                    <img src="../images/banner-img-2.png" alt="배너 이미지2">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="banner 3">
+                            <a href="#">
+                                <div>
+                                    <p class="text">파리바게뜨<br>2천원 할인</p>
+                                    <img src="../images/banner-img-3.png" alt="배너 이미지2">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="banner 4">
+                            <a href="#">
+                                <div>
+                                    <p class="text">혼수·이사<br>스탬프 받고<br>5만원 캐시백!</p>
+                                    <img src="../images/banner-img-4.png" alt="배너 이미지2">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="banner 5">
+                            <a href="#">
+                                <div>
+                                    <p class="text">신한 개인체크<br>카드로 혜택받고<br>지방세 납부하세요</p>
+                                    <img src="../images/banner-img-5.png" alt="배너 이미지2">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="banner 6">
+                            <a href="#">
+                                <div>
+                                    <p class="text">부가가치세 신고!<br>이용내역 조회 및<br>발송 서비스</p>
+                                    <img src="../images/banner-img-6.png" alt="배너 이미지2">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="banner 7">
+                            <a href="#">
+                                <div>
+                                    <p class="text">앱 테크 전성시대!<br>라방 보고<br>포인트 받자</p>
+                                    <img src="../images/banner-img-7.png" alt="배너 이미지2">
+                                </div>
+                            </a>
+                        </li>
+                        <li class="banner 8">
+                            <a href="#">
+                                <div>
+                                    <p class="text">신한플레이<br>신규 가입 시<br>5천P 즉시 지급 </p>
+                                    <img src="../images/banner-img-8.png" alt="배너 이미지2">
+                                </div>
+                            </a>
+                        </li>
+                    </ul>            
+                </div>
+                <img src="../images/arr1-72-r-a.png" alt="우측 화살표" class="nextArrow">
+                <div class="control">
+                    <div class="pause"></div>
+                    <div class="play"></div>
+                </div>
+            </div>
+            <div class="line fst"> </div>
+            <div class="section3">
+                <h3>금융</h3>
+                <div class="sub">
+                    <p>똑똑한 금융생활</p>
+                    <a href="#">나만의 금융혜택 보기 <img src="../images/arr-60-r-a.png" alt="페이지 이동 화살표"></a>
+                </div>
+                <ul class="btns">
+                    <li>
+                        <img src="../images/direct-icon-1.png" alt="단기카드대출 아이콘">
+                        <p>단기카드대출(현금서비스)</p>
+                        <a href="#" class="button_apply">신청하기</a>
+                    </li>
+                    <li>
+                        <img src="../images/direct-icon-2.png" alt="장기카드대출 아이콘">
+                        <p>장기카드대출(카드론)</p>
+                        <a href="#" class="button_apply">신청하기</a>
+                    </li>
+                    <li>
+                        <img src="../images/direct-icon-3.png" alt="일부결제금액 이월약정 아이콘">
+                        <p>일부결제금액 이월약정(리볼빙)</p>
+                        <a href="#" class="button_apply">신청하기</a>
+                    </li>
+                    <li>
+                        <img src="../images/direct-icon-4.png" alt="맞춤대출 아이콘">
+                        <p>맞춤대출(즉시대출)</p>
+                        <a href="#" class="button_apply">신청하기</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="line sec"></div>
+            <div class="section4">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div>
+                                <a href="#">
+                                    <img src="../images/bottom-menu-icon-01.png" alt="월별 명세서 아이콘">
+                                    <p>월별 명세서</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="../images/bottom-menu-icon-02.png" alt="이용내역 아이콘">
+                                    <p>이용내역</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="../images/bottom-menu-icon-03.png" alt="이용한도 아이콘">
+                                    <p>이용한도</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="../images/bottom-menu-icon-04.png" alt="즉시결제 아이콘">
+                                    <p>즉시결제</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="../images/bottom-menu-icon-05.png" alt="포인트조회 아이콘">
+                                    <p>포인트조회</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="../images/bottom-menu-icon-06.png" alt="실적충족현황 아이콘">
+                                    <p>실적충족현황</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="../images/bottom-menu-icon-07.png" alt="내카드관리 아이콘">
+                                    <p>내카드관리</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="#">
+                                    <img src="../images/bottom-menu-icon-08.png" alt="전자민원접수 아이콘">
+                                    <p>전자민원접수</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div><a href="#">
+                                <img src="../images/bottom-menu-icon-1.png" alt="내가받은혜택 아이콘">
+                                <p>내가받은혜택</p>
+                            </a></div>
+                            <div><a href="#">
+                                <img src="../images/bottom-menu-icon-2.png" alt="마이샵쿠폰 아이콘">
+                                <p>마이샵쿠폰</p>
+                            </a></div>
+                            <div><a href="#">
+                                <img src="../images/bottom-menu-icon-3.png" alt="이용한도상향 아이콘">
+                                <p>이용한도상향</p>
+                            </a></div>
+                            <div><a href="#">
+                                <img src="../images/bottom-menu-icon-4.png" alt="카드재발급 아이콘">
+                                <p>카드재발급</p>
+                            </a></div>
+                            <div><a href="#">
+                                <img src="../images/bottom-menu-icon-5.png" alt="카드사용등록 아이콘">
+                                <p>카드사용등록</p>
+                            </a></div>
+                            <div><a href="#">
+                                <img src="../images/bottom-menu-icon-6.png" alt="대출금액상환 아이콘">
+                                <p>대출금액상환</p>
+                            </a></div>
+                            <div><a href="#">
+                                <img src="../images/bottom-menu-icon-7.png" alt="진행중이벤트 아이콘">
+                                <p>진행중이벤트</p>
+                            </a></div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="line trd"></div>
+            <div class="section5">
+                <div class="tab">
+                    <div class="tab_title">
+                        <h3 class="1 on">공지</h3>
+                        <h3 class="2">금융소비자주의경보</h3>
+                    </div>
+                    <a href="#">전체보기 <img src="../images/arr-60-r-a.png" alt="페이지 이동 화살표"></a>
+                </div>
+                <div class="notice">
+                    <a href="#" class="sub_title">
+                        <h4>공지</h4>
+                        <img src="../images/arr-60-r-a.png" alt="더보기 버튼">
+                    </a>
+                    <ul>
+                        <li><a href="#">
+                            <p>분할결제 제한조치 시행 관련 추가 안내</p>
+                            <img src="../images/new.png" alt="새 글 알림 표시">
+                        </a></li>
+                        <li><a href="#">
+                            <p>The BEST 카드 서비스 변경 안내</p>
+                            <img src="../images/new.png" alt="새 글 알림 표시">
+                        </a></li>
+                        <li><a href="#">
+                            <p>온라인 회원 약관 안내</p>
+                            <img src="../images/new.png" alt="새 글 알림 표시">
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="line"></div>
+                <div class="warning">
+                    <a href="#" class="sub_title">
+                        <h4>금융소비자주의경보</h4>
+                        <img src="../images/arr-60-r-a.png" alt="더보기 버튼">
+                    </a>
+                    <ul>
+                        <li><a href="#">
+                            <p>신한카드를 사칭한 카드 발급 안내 문자(스미싱) 주의</p>
+                            <img src="../images/new.png" alt="새 글 알림 표시">
+                        </a></li>
+                        <li><a href="#">
+                            <p>'정부지원','서민금융' 등을 사칭한 불법광고 소비자 경보 발령</p>
+                        </a></li>
+                        <li><a href="#">
+                            <p>신용카드 모집인을 가장한 금융사기 피해 주의 안내</p>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer"></div>
+
+
+    <script>
+    
+    // scroll event
+    window.onload = function(){
+        $('.search_icon').hide()
+    }
+
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 99){
+            $('.search_icon').show()
+        }else {
+            $('.search_icon').hide()
+        }
+    })
+
+    </script>
+</body>
+</html>
