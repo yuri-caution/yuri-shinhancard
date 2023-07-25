@@ -77,7 +77,6 @@ $(function(){
     });
 
     $('.pause').click(function(){
-        console.log('클릭')
         $(this).hide()
         $('.play').show()
         $('.slide').slick('slickPause')
