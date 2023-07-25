@@ -48,6 +48,61 @@
     })
 ```
 
+### slick 커스텀
+```
+/* slick.css */
+.dots_custom {
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+  
+.dots_custom li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 6px;
+    padding: 0;
+}
+  
+.dots_custom li button {
+    border: none;
+    background: #d1d1d1;
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    height: 6px;
+    width: 6px;
+    border-radius: 3px;
+    padding: 0;
+}
+  
+.dots_custom li.slick-active button {
+    width: 16px;
+    background-color: #383B5A;
+}
+
+    // section2 slick
+    $('.slide').slick({
+        dots: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        draggable: false,
+        dotsClass: 'dots_custom',
+        prevArrow : $('.prevArrow'), 
+        nextArrow : $('.nextArrow'),
+        responsive: [{
+            breakpoint: 1020,
+            settings: {
+                slidesToShow: 1,
+            }
+        }]
+    });
+```
+
 ### 아코디언
 ```
     $('.accordian h5').on('click', function(){
